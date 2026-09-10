@@ -41,7 +41,7 @@ st.markdown("""
 @st.cache_resource
 def load_assets():
     try:
-        model = joblib.load('isolation_forest_model.pkl')
+        model = joblib.load('isolation_forrest_model.pkl')
         scaler = joblib.load('scaler.pkl')
         return model, scaler
     except Exception as e:
